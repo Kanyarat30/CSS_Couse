@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500&family=Sarabun:ital,wght@0,100;0,200;1,100;1,800&display=swap");
+body {
+  font-size: 22px;
+}
+
+main {
+  font-family: monospace;
+}
+
+p {
+  font-family: "Edu NSW ACT Foundation", cursive;
+}
+
+.highlight {
+  background-color: gold;
+}
+
+#pchild {
+  color: rgb(150, 16, 190);
+}
+
+/* li.li-class {
+  font-size: 40px;
+  color: red;
+} */
+
+/* -- list -- */
+/* ul {
+  list-style-type: circle;
+  text-align: center;
+  list-style-position: inside;
+  color: green;
+  font-size: 36px;
+  font-weight: 700;
+  list-style-image: url(../image/checklist.png);
+}
+
+ul li:not(:last-child) {
+  color: red;
+} */
+
+a {
+  font-size: 44px;
+  color: blue;
+}
+
+a:hover {
+  color: aquamarine;
+  text-decoration: none;
+}
+
+a:active {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:focus {
+  color: rgb(73, 83, 214);
+}
+
+/* -- CSS3 Display -- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0.5rem;
+}
